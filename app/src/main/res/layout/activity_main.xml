@@ -9,7 +9,7 @@
     <Space
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_weight="30" />
+        android:layout_weight="15" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -20,13 +20,13 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="10" />
+            android:layout_weight="15" />
 
         <ImageView
             android:id="@+id/imageScreen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="25" />
+            android:layout_weight="45" />
 
         <Space
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="15"
+            android:layout_weight="10"
             android:onClick="randomImage"
             android:scaleType="center"
             android:src="@drawable/start"
@@ -46,11 +46,11 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="10" />
+            android:layout_weight="15" />
     </LinearLayout>
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_weight="30" />
+        android:layout_weight="15" />
 </LinearLayout>

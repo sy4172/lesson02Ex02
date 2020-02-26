@@ -27,22 +27,25 @@ public class MainActivity extends AppCompatActivity {
         i = (int) (Math.random()*3)+1;
         switch (i) {
             case 1: {
-                btn.setImageResource(R.drawable.number1);
+                btn.setImageResource(R.drawable.n1);
                 iv.setImageResource(R.drawable.img11);
             }
             break;
 
             case 2: {
-                btn.setImageResource(R.drawable.number2);
+                btn.setImageResource(R.drawable.n2);
                 iv.setImageResource(R.drawable.img12);
             }
             break;
 
             case 3: {
-                btn.setImageResource(R.drawable.number3);
+                btn.setImageResource(R.drawable.n3);
                 iv.setImageResource(R.drawable.img13);
             }
+            default: {
+
+            }
+            }
         }
-        }
-    }
+}
 
